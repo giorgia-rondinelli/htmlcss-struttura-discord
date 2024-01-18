@@ -118,3 +118,48 @@ ul{
   height: 700px;
   border: 2px dashed black;
 }
+
+.altro{
+  height: 600px;
+  background-color: darkslategray;
+  padding-top: 10px;
+}
+
+.opzioni{
+  height: 550px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.foot{
+  background-color: coral;
+  width:34%;
+  border: 2px dashed black;
+}
+.menu-footer{
+  background-color: lightseagreen;
+  width: 16.5%;
+  border: 2px dashed black;
+}
+
+.fine{
+  margin-top: 3px;
+  background-color:darkslategray ;
+  height: 100px;
+  display: flex;
+  align-items: stretch;
+  padding-top: 20px;
+}
+.finale{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ .btn,.logo-finale{
+  background-color: springgreen;
+  padding: 5px 8px;
+  border: 2px dashed black;
+ }
+
+
