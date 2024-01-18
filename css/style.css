@@ -12,14 +12,18 @@ header{
   
 }
 
+.container.intestazione{
+  
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
 .container{
   background-color: lightcoral;
   max-width: 900px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
   width: 900px;
-  height: 30px;
 }
 
  .logo,.login{
@@ -55,6 +59,45 @@ ul{
   padding: 5px;
  }
 
+ .jumbotron{
+  background-color: blue;
+  height:380px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+ }
+.hero{
+  height: 300px;
+  width: 650px;
+  background-color: lightpink;
+  border: 2px dashed black;
+}
 
 
+.sezione.uno{
+  background-color: white;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenuto{
+  height: 380px;
+  display: flex;
+}
 
+.immagine{
+  height: 380px;
+  background-color:dodgerblue ;
+  width: 60%;
+  border: 2px dashed black;
+}
+.testo{
+  width:40% ;
+  height: 380px;
+  background-color:crimson;
+  border: 2px dashed black;
+}
