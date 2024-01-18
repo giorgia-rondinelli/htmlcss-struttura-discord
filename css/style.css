@@ -77,8 +77,10 @@ ul{
 }
 
 
-.sezione.uno{
+.sezione.uno.tre{
   background-color: white;
+}
+.sezione{
   height: 450px;
   display: flex;
   justify-content: center;
@@ -99,5 +101,20 @@ ul{
   width:40% ;
   height: 380px;
   background-color:crimson;
+  border: 2px dashed black;
+}
+
+.sezione.due{
+  background-color: rgb(211,211,211);
+}
+
+.sezione.quattro{
+  height:800px ;
+  background-color:rgb(211,211,211) ;
+}
+
+.grande{
+  background-color:rgb(64, 225, 64);
+  height: 700px;
   border: 2px dashed black;
 }
